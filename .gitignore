@@ -1,0 +1,30 @@
+# 依赖与构建产物
+node_modules/
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# 环境变量（只提交 .env.example）
+.env
+.env.local
+.env.*.local
+
+# 日志与临时文件
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+.DS_Store
+Thumbs.db
+generated-images/
+
+# 赛事材料与本地导出的线上页面（保留在本地，不入库）
+诗境路演/
+讲稿工作/
+.trae/
+*.pptx
+*.pdf
+*.docx
